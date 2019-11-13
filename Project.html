@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Matching Polygons: Mix or Match</title>
+</head>
+<style>
+@font-face {
+       font-family:"Lunacy";
+       src: url("Assets/fonts/Lunacy.woff") format("woff"), url ("Assets/Fonts/Lunacy.woff2") format("woff2")
+}
+@font-face {
+       font-family:"Serif";
+       src: url("Assets/fonts/Serif.woff") format("woff"), url ("Assets/Fonts/Serif.woff2") format("woff2")
+}
+
+  {
+box-sizing:border-box;
+
+}
+
+body {
+   margin:30px;
+   background: Black;
+}
+.page-title {
+color: Red;
+font-family: Courier New, Lucida, Console;
+font-weight: normal;
+text-align: center;
+font-size: 4em;
+}
+
+.game-info-container {
+grid-column: 1/-1;
+display: flex;
+justify-content: space-between;
+}
+
+
+.game-info {
+font-family: Verdana;
+color: yellow
+;font-size: 30px;
+}
+
+.game-container {
+display: grid;
+grid-template-columns: repeat(4, auto);
+grid-gap: 10px;
+
+}
+
+.card {
+position: relative;
+background-color: white;
+height: 175px;
+width: 250px;
+}
+
+.card-face {
+position: absolute;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+
+.card-front {
+ transform: rotateX(180deg);
+
+
+]
+
+
+</style>
+
+<script>
+
+function js_style()
+
+	{
+		text.style.fontsize="30px";
+		text.style.fontFamily="Courier New, Lucida;
+		text.style.color="purple";
+	}
+</script>
+
+<body>
+	<h1 class="page-title">MATCHING POLYGONS: Mix or Match</h1>
+	<div class"game-container">
+	      <div class="game-info-container">
+	                  <div class="game-info">
+			Time <span id="time-remaining">100</span>
+		   </div>
+	                  <div class="game-info">
+			Flips <span id="flips">0</span>
+		   </div>
+	      </div>
+	      <div class="card">
+		  <div class="card-back card-face">
+		      <img class="polygon" src="Assets/Images/polygon.png">
+	          </div>
+	              <div class="card-front card-face">
+		      <img class="hexagon" src="Assets/Images/6.png">
+	      </div>
+
+	      <div class="card">
+</div>
+	      <div class="card"></div>
+	      <div class="card"></div>
+	      <div class="card"></div>
+	      <div class="card"></div>
+	      <div class="card"></div>
+	      <div class="card"></div>
+	      <div class="card"></div>
+	      <div class="card"></div>
+        </div>
+</body>
+</html>
